@@ -1,5 +1,5 @@
 import React from "react";
-import { useStateValue } from "./ContextApi";
+import { useStateValue } from "./StateProvider";
 import "./Subtotal.css";
 import CurrencyFormat from "react-currency-format";
 import { getCartTotal } from "./reducer";
